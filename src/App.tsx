@@ -4,6 +4,7 @@ import HomePage from "./page/Home/HomePage";
 import About from "./Module/About/About";
 import AboutPage from "./page/About/AboutPage";
 import ServicesPage from "./page/Services/ServicesPage";
+import PortfolioPage from "./page/Portfolio/PortfolioPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <AboutPage />
       <ServicesPage />
+      <PortfolioPage />
     </Fragment>
   );
 }
